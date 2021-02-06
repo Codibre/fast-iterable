@@ -64,11 +64,11 @@ That's it. Rxjs is focused primarily in event handling.
 Over that, some key differences can be pointed out:
 
 * *A previous operation of rxjs doesn't stop when some next operation stops, while with fast-iterable it does.*<br>
-That's because, with rxjs you can chain multiple operations parallel after one, which makes sense for event handling. With fast-iterable, on the other hand, you can only have, normally, a straight line os operations and, no matter what operation break the iteration, everything stops.
+That's because, with rxjs you can chain multiple operations parallel after one, which makes sense for event handling. With fast-iterable, on the other hand, you can only have, normally, a straight line of operations and,f no matter what operation break the iteration, everything stops.
 * *With rxjs, a previous operation doesn't wait for a async next operation to end before go to the next step, while with fast-iterable it does.*<br>
 Again, rxjs is focused on events. When dealing with event, you just want to emit them as fast as possible. With a simple iteration, though, you want to make sure that the whole chain of steps is concluded before advancing to the next one.
 
-So, as you see, regardless some similarities, there're some pretty important difference between and those are libraries focused on quite different problems.
+So, as you see, regardless some similarities, there're some pretty important differences between them and those are libraries focused on quite different problems.
 
 ## Usage
 
