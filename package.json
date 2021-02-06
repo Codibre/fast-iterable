@@ -1,6 +1,6 @@
 {
   "name": "fast-iterable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast and fluent way to iterate, sync or async, over array likes, events and streams",
   "main": "index.js",
   "scripts": {
