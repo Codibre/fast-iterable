@@ -10,7 +10,7 @@ A fast way to iterate, sync or async, over array likes, stream and async iterabl
 
 ## But Why?
 
-When you're dealing with complex operations envolving lists with multiple items, you can fall int the need of transform, filter, perform a flat map or even take jsut some items from that list. In cases like that, if you're dealing with a pure array, one solution is to simply do something like this:
+When you're dealing with complex operations envolving lists with multiple items, you can fall in the need of transform, filter, perform a flat map or even take just some items from that list. In cases like that, if you're dealing with a pure array, one solution is to simply do something like this:
 
 
 ```typescript
