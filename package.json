@@ -1,0 +1,22 @@
+{
+  "name": "fast-iterable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codibre/fast-iterable.git"
+  },
+  "author": "Codibre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codibre/fast-iterable/issues"
+  },
+  "homepage": "https://github.com/Codibre/fast-iterable#readme",
+  "dependencies": {
+    "@codibre/fluent-iterable": "^1.9.0"
+  }
+}
